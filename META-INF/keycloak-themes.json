@@ -1,8 +1,8 @@
 {
   "themes": [
     {
-      "name": "keywind",
-      "types": ["login"]
+      "name": "zokol",
+      "types": ["login", "email"]
     }
   ]
 }
