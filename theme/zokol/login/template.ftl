@@ -20,7 +20,7 @@
 >
   <#assign cardHeader>
     <@logo.kw>
-      ${kcSanitize(msg("loginTitleHtml", (realm.displayNameHtml!"")))?no_esc}
+      ${kcSanitize(msg("loginTitleHtml", (realm.displayNameHtml!"")))?upper_case?no_esc}
     </@logo.kw>
     <#if !(auth?has_content && auth.showUsername() && !auth.showResetCredentials())>
       <@heading.kw>
