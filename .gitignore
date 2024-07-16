@@ -6,7 +6,7 @@ out/
 # dependencies
 node_modules/
 
-theme/zokol/login/resources/dist
+theme/zokol/login/resources/dist/
 
 # misc
 .DS_Store
