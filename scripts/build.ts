@@ -1,10 +1,10 @@
 import archiver from 'archiver';
 import { createWriteStream, existsSync, mkdirSync } from 'fs';
 
-import { name } from '../package.json';
+import { name, version } from '../package.json';
 
 const dir = 'out';
-const file = `${name}.jar`;
+const file = `${name}-${version}.jar`;
 const path = `${dir}/${file}`;
 
 !existsSync(dir) && mkdirSync(dir);

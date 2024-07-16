@@ -1,6 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package",
-  "name": "zokol",
+  "name": "zokol-keycloak-ui",
+  "version": "1.0.1",
   "scripts": {
     "build": "tsc && vite build",
     "build:jar": "vite-node scripts/build",
